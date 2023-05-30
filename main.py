@@ -1,27 +1,24 @@
 import numpy as np #aca importamos el modulo externo para poder usar numpy
 
-def erase():  #definimos una funcion de salto de linea
-    print('')
 
-erase()
-erase()
-erase()
-
-#aca creamos un numpy array de ceros, que tiene valores individuales de tipo float64
-print('aca creamos un array de ceros con np.zeros')
-a = np.zeros(30)
+a = np.zeros(30) # array de ceros con 30 elementos
 print(a)
-print(f'{type(a)} es el tipo del objeto creado')
-print(f'{type(a[0])} es el tipo de dato de cada elemento del array')
-erase()
+print(f'{type(a)}tipo de dato del objeto')
+print(f'{type(a[0])}tipo de dato de cada elemento')
 
-#aca creamos un numpy array de unos, que tiene valores individuales de tipo float64
-print('aca creamos un array de unos con np.ones')
-ones = np.ones(66)
+
+ones = np.ones(66) ## array de unos con 66 elementos
 print(ones)
-print(type(ones))
-print(type(ones[0]))
-erase()
-erase()
-erase()
+print(f"{type(ones)} tipo de dato del objeto")
+print(f"{type(ones[0])}tipo de dato de cada elemento")
+
+# 2D ndarray
+array2D = np.array([[2, 3, 4], [4, 6, 8]])
+print(array2D)
+# acceder a un elemento usando index (2 maneras)
+print(array2D[1][1])
+print(array2D[1, 1])
+print(f"{type(array2D)}tipo de dato del objeto")
+print(f"{type(array2D[0][0])}tipo de dato de cada elemento")
+
 
