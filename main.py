@@ -12,6 +12,10 @@ print(ones)
 print(f"{type(ones)} tipo de dato del objeto")
 print(f"{type(ones[0])}tipo de dato de cada elemento")
 
+# One dimensional ndarray
+array_one = np.array([22, 33, 44, 55, 66])
+print(array_one)
+
 # 2D ndarray
 array2D = np.array([[2, 3, 4], [4, 6, 8]])
 print(array2D)
